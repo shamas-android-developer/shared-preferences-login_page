@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/buttonLogout"
+        style="@style/RoundButton"
+        android:layout_width="170dp"
+        android:layout_marginTop="36dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shadow"
+        android:text="@string/logout_button"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editMultiLine"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonLoginInfo"
+        style="@style/RoundButton"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_shadow"
+        android:text="@string/button_login_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/buttonLogout"
+        app:layout_constraintTop_toBottomOf="@+id/editMultiLine"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editMultiLine"
+        android:layout_width="281dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Welcome! \nYou are successfully logged in..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

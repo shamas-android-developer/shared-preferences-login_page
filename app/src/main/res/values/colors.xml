@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--To be used by this app !-->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="buttonShadow">#e4eefc</color>
+    <color name="gradient_leftside_color">#b056bb</color>
+    <color name="gradient_rightside_color">#ec25d8</color>
+
+</resources>
