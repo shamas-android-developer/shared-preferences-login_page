@@ -4,7 +4,6 @@ package com.example.myapplication
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -18,7 +17,7 @@ class SecondActivity : AppCompatActivity() {
     private lateinit var buttonLogout: Button
     private lateinit var buttonLogInfo: Button
 
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
@@ -26,7 +25,7 @@ class SecondActivity : AppCompatActivity() {
         // Initialize view elements
         buttonLogout = findViewById(R.id.buttonLogout)
         buttonLogInfo = findViewById(R.id.buttonLoginInfo)
-        multilineText = findViewById(R.id.editMultiLine)
+        multilineText = findViewById(R.id.editWelcomeText)
 
         welcomeScreen = SharedPref(this)
 

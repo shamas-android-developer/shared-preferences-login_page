@@ -18,5 +18,6 @@
     <string name="button_login_info">Login Info</string>
     <string name="go_back_button">Go Back</string>
     <string name="title_activity_third">ThirdActivity</string>
+    <string name="welcome_you_are_successfully_logged_in">Welcome! \n You are successfully logged in...</string>
 
 </resources>
