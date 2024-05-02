@@ -19,7 +19,7 @@
         android:inputType="textMultiLine"
         android:text="@string/welcome_you_are_successfully_logged_in"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="Autofill,LabelFor" />
@@ -33,6 +33,8 @@
         android:layout_marginTop="68dp"
         android:background="@drawable/button_shadow"
         android:text="@string/logout_button"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLoginInfo"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editWelcomeText"
         tools:ignore="MissingConstraints" />
@@ -47,6 +49,7 @@
         android:background="@drawable/button_shadow"
         android:text="@string/button_login_info"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toEndOf="@+id/buttonLogout"
         app:layout_constraintTop_toBottomOf="@+id/editWelcomeText"
