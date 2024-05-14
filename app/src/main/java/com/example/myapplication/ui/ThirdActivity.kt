@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -6,8 +6,9 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.helper.Constant
-import com.example.myapplication.helper.SharedPref
+import com.example.myapplication.R
+import com.example.myapplication.data.Constant
+import com.example.myapplication.data.SharedPref
 
 class ThirdActivity : AppCompatActivity() {
 

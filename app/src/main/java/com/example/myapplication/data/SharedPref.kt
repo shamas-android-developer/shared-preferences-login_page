@@ -1,4 +1,4 @@
-package com.example.myapplication.helper
+package com.example.myapplication.data
 
 import android.content.Context
 import android.content.Context.MODE_PRIVATE

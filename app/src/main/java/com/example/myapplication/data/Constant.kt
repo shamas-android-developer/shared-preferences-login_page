@@ -1,4 +1,4 @@
-package com.example.myapplication.helper
+package com.example.myapplication.data
 
 class Constant {
     companion object{
